@@ -25,7 +25,7 @@ jobs:
         run: pyinstaller --onefile pdftray.py
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@3.1.3
         with:
-          name: PDFTrayApp
-          path: dist/pdftray.exe
+        name: PDFTrayApp
+        path: dist/pdftray.exe
